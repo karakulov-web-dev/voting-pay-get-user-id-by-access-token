@@ -1,0 +1,20 @@
+{
+  "name": "@karakulov-web-dev/voting-pay-get-user-id-by-access-token",
+  "version": "1.0.0",
+  "description": "voting-pay-get-user-id-by-access-token",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "start": "tsc -w -p tsconfig.json"
+  },
+  "author": "karakulov.web.dev@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^12.6.8",
+    "axios": "^0.19.0"
+  }
+}
